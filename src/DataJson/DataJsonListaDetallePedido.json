@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "idPedido": 1,
+        "idProducto": 2,
+        "cantidad": 2.00,
+        "precioUnitario": 98.90,
+        "subTotal": 197.80,
+        "producto": {
+            "id": 2,
+            "idCategoria": 3,
+            "idMarca": 4,
+            "nombre": "CROQUETAS",
+            "precio": 98.90,
+            "categoria": {
+                "id": 3,
+                "nombre": "COMIDA"
+            },
+            "marca": {
+                "id": 4,
+                "nombre": "DOG SHOW"
+            }
+        }
+    },
+    {
+        "id": 2,
+        "idPedido": 2,
+        "idProducto": 3,
+        "cantidad": 1.00,
+        "precioUnitario": 45.90,
+        "subTotal": 45.90,
+        "producto": {
+            "id": 3,
+            "idCategoria": 1,
+            "idMarca": 1,
+            "nombre": "CASACA",
+            "precio": 45.90,
+            "categoria": {
+                "id": 1,
+                "nombre": "ROPA"
+            },
+            "marca": {
+                "id": 1,
+                "nombre": "NIKE"
+            }
+        }
+    },
+    {
+        "id": 3,
+        "idPedido": 3,
+        "idProducto": 3,
+        "cantidad": 2.00,
+        "precioUnitario": 45.90,
+        "subTotal": 91.80,
+        "producto": {
+            "id": 3,
+            "idCategoria": 1,
+            "idMarca": 1,
+            "nombre": "CASACA",
+            "precio": 45.90,
+            "categoria": {
+                "id": 1,
+                "nombre": "ROPA"
+            },
+            "marca": {
+                "id": 1,
+                "nombre": "NIKE"
+            }
+        }
+    }
+]
